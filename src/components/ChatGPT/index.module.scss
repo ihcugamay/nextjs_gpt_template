@@ -1,0 +1,29 @@
+.textarea {
+  width: 300px;
+  height: 150px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: #0c0909;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  background-color: seagreen;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
